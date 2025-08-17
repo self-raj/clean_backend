@@ -16,7 +16,7 @@ const PORT = 5000;
 
 // Middleware
 app.use(cors({
-  origin: "https://cleaanziie.com", // tumhara frontend ka exact URL
+  origin: "*", 
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true // agar cookies ya JWT use ho rahe ho
 }));
