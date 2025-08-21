@@ -12,7 +12,7 @@ import { createSlider } from "./routes/slider.router.js";
 dotenv.config();
 
 const app = express();
-const PORT = 5000;
+const PORT = 5050;
 
 // Middleware
 app.use(cors({
